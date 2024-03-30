@@ -1,0 +1,9 @@
+{
+  "name": "sample-firestore",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.3.0",
+    "@sendgrid/mail": "^8.1.1",
+    "dotenv": "^16.4.5"
+  }
+}
