@@ -32,7 +32,7 @@ exports.helloFirestore = async (event, context) => {
           const message = {
             to: email,
             from: "ebandi@iu.edu",
-            subject: `Eshwar Chandra Bandi ${headline}`,
+            subject: `${headline}`,
             text: `Location - ${locations[j]} Deal - ${headline}`
           };
 
